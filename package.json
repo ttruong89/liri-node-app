@@ -1,0 +1,30 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "A siri-like app that utilizes the Twitter, Spotify, and IMBD NPM",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttruong89/liri-node-app.git"
+  },
+  "keywords": [
+    "movie-this",
+    "spotify-this-song",
+    "do-what-it-says",
+    "my-tweets"
+  ],
+  "author": "Tony Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttruong89/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/ttruong89/liri-node-app#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}
